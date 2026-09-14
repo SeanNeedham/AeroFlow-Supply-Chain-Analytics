@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-AeroFlow is a supply chain analytics project focused on identifying operational risks across supplier performance, inventory availability, demand forecasting and quality.
+AeroFlow is a supply chain analytics project focused on identifying operational risk across supplier performance, inventory availability, demand forecasting and quality.
 
-The project uses Python and pandas to profile, clean and analyse supply chain data before presenting the most important findings through Matplotlib visualisations. The objective is to move beyond simple KPI reporting and identify where operational performance issues are concentrated, what is driving them and where management action should be prioritised.
+Using Python and pandas, the project profiles, cleans and analyses supply chain data before communicating the strongest findings through Matplotlib visualisations. The objective is to move beyond KPI reporting and identify where performance issues are concentrated, what is driving them and where management action should be prioritised.
 
 ## Business Problem
 
@@ -60,7 +60,7 @@ The project follows a structured end-to-end analytical workflow:
 ## Key Findings
 
 ### Supplier Performance
-SUP033 was the strongest supplier-risk outlier, recording an OTIF rate of only 3.0% across 631 purchase orders. Its average delivery variance was approximately 6.1 days late, and it also recorded the highest serious quality incident rate among suppliers when normalised by order volume.
+SUP033 was the most significant supplier-performance outlier, recording an OTIF rate of only 3.0% across 631 purchase orders. Its average delivery variance was approximately 6.1 days late, and it also recorded the highest serious quality incident rate among suppliers when normalised by order volume.
 
 ### Inventory Risk
 Inventory availability risk was concentrated within Electrical parts. Electrical recorded approximately 16 stockouts per part, around twice the rate of LandingGear and substantially above the other part families. SITE02 recorded the highest combined stockout and backorder exposure.
